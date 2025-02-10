@@ -1,5 +1,15 @@
+.img-bg{
+    background-image: url(../../assets/imgs/img-conteiner/teste.02.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+
+}
 .title_header{
     text-align: start;
+    color: #fff;
 }
 .header{
     display: flex;
@@ -17,6 +27,7 @@
     font-weight: 300;
     font-size: 1.1rem;
     position: relative;
+    color: #fff;
   
 }
 .menu_header a::after{
