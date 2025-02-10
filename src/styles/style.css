@@ -3,4 +3,5 @@
 @import "components/componentes.css";
 @import "./layouts/layouts.css";
 @import "./components/variaveis.css";
-@import "./components/tipografia.css"
+@import "./components/tipografia.css";
+@import "./pages/header.css"

@@ -1,0 +1,43 @@
+.title_header{
+    text-align: start;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #d9d7d742;
+    align-items: center;
+    border-radius: var(--borderRadios);
+}
+.menu_header{
+    display: flex;
+    gap: 20px;
+}
+.menu_header a {
+    font-family: var(--font1);
+    font-weight: 300;
+    font-size: 1.1rem;
+    position: relative;
+  
+}
+.menu_header a::after{
+    content: "";
+    display: block;
+    height: 3px;
+    width: 0px;
+    background-color: var(--cor3);
+    margin-top: 6px;
+    transition: 0.4s;
+    position: absolute;
+}
+.menu_header a:hover::after{
+    width: 100%;
+}
+.order-loguin{
+    display: flex;
+    gap: 20px;
+}
+
+.order-loguin img {
+    cursor: pointer;
+
+}
