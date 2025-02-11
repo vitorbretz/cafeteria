@@ -4,4 +4,5 @@
 @import "./layouts/layouts.css";
 @import "./components/variaveis.css";
 @import "./components/tipografia.css";
-@import "./pages/header.css"
+@import "./pages/header.css";
+@import "./pages/main.css";
