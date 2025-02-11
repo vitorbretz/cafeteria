@@ -1,0 +1,10 @@
+.botao{
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 10px;
+    background: linear-gradient(to right,#F0990E, #d9711a,#833b09);
+}
+.botao:hover{
+    color: #000;
+    font-weight: 400;
+}
