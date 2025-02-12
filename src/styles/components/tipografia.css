@@ -50,6 +50,11 @@
     font-family: var(--font1);
     font-weight: 400;
 }
+.paragraph-p2{
+    font-size: 1.2rem;
+    font-weight: 300;
+    font-family: var(--font1);
+}
 .cor1{
     color: #000;
 }
@@ -67,4 +72,7 @@
 }
 .padding-p{
     padding: 20px 20px 20px 0px;
+}
+.paddind-div{
+    padding: 20px;
 }

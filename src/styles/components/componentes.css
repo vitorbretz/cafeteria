@@ -4,6 +4,7 @@
     border-radius: 10px;
     background: linear-gradient(to right,#F0990E, #d9711a,#833b09);
     color: var(--cor2);
+    box-shadow: 1px 1px 5px #000;
 }
 .botao:hover{
     color: #000;

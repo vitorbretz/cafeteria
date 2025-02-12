@@ -1,0 +1,37 @@
+.menu h2,
+.menu p{
+    text-align: center;
+    padding: 15px;
+}
+
+
+.option-menu{
+    font-family: var(--font1);
+    gap: 30px;
+    text-align: center;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+  
+}
+.option-menu h3{
+    font-weight: 600;
+    color: var(--cor3);
+    font-size: 1.2rem;
+}
+.item-menu{
+    border: 1px solid var(--cor3);
+    border-radius: var(--borderRadios);
+    box-shadow: 1px 1px 5px #000;
+    padding-bottom: 20px;
+}
+.item-menu p {
+    height: 80px;
+}
+.item-menu img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border-radius: 6px 6px 0px 0px;
+}
