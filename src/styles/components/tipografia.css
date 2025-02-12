@@ -4,6 +4,11 @@
     font-family: var(--font4);
     text-align: center;
 }
+.text-g2{
+    font-size: 3rem;
+    line-height: 1.125;
+    font-family: var(--font2);
+}
 .text-m1{
     font-size: 3rem;
     line-height: 1.125;
@@ -27,6 +32,7 @@
     line-height: 1.125;
     font-weight: 300;
     font-family: var(--font1);
+    
 }
 .paragraph-m1{
     font-size: 1.5rem;
@@ -40,8 +46,9 @@
 }
 .paragraph-p1{
     font-size: 1.1rem;
-    line-height: 1.125;
+    line-height: 1.525;
     font-family: var(--font1);
+    font-weight: 400;
 }
 .cor1{
     color: #000;
@@ -54,4 +61,10 @@
 }
 .cor4{
     color: #603809;
+}
+.padding-h2{
+    padding: 30px 0;
+}
+.padding-p{
+    padding: 20px 20px 20px 0px;
 }
