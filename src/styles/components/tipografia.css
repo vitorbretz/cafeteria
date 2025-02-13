@@ -55,6 +55,9 @@
     font-weight: 300;
     font-family: var(--font1);
 }
+.align-center{
+    text-align: center;
+}
 .cor1{
     color: #000;
 }
@@ -70,6 +73,7 @@
 .padding-h2{
     padding: 30px 0;
 }
+
 .padding-p{
     padding: 20px 20px 20px 0px;
 }

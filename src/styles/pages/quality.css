@@ -1,0 +1,10 @@
+.quality{
+    margin-top: 50px;
+    height: 800px;
+}
+.quality_icon{
+    height: 24px;
+    width: 24px;
+    background-size: 30px 10px;
+    background-color: aliceblue;
+}
