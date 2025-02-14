@@ -1,0 +1,27 @@
+.place{
+    margin-top: 20px;
+    background-color: var(--cor5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: var(--borderRadios);
+    
+}
+.place_conteudo{
+    flex: 1; 
+    text-align: center;
+    padding: 0px 30px;
+}
+.place_img{
+    flex: 1;
+   
+}
+.place img{
+    border-radius: var(--borderRadios);
+}
+.place_conteudo p {
+    padding-bottom: 20px;
+}
+.place_conteudo a {
+    
+}
