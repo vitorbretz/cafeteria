@@ -55,6 +55,11 @@
     font-weight: 300;
     font-family: var(--font1);
 }
+.paragraph-p3{
+    font-size: 0.9rem;
+    font-weight: 300;
+    font-family: var(--font1);
+}
 .align-center{
     text-align: center;
 }
