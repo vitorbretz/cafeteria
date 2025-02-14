@@ -9,7 +9,7 @@
 }
 .item-quality:hover,
 .item-quality img:hover{
-    background-color: var(--cor7);
+    
 }
 .quality_icon{
     height: 24px;
