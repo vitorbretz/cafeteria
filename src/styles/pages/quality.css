@@ -7,10 +7,7 @@
     border: none;
     box-shadow: none;
 }
-.item-quality:hover,
-.item-quality img:hover{
-    
-}
+
 .quality_icon{
     height: 24px;
     width: 24px;
@@ -24,11 +21,10 @@
     background-color: var(--cor4);
     margin-top: 10px;
 }
-.item-quality h3{
-    color: var(--cor3);
-    font-weight: 600;
-    padding: 20px 0;
-}
+
 .item-quality p {
     padding: 0px 20px 0px 20px;
+}
+.galery-opnion{
+    background-color: var();
 }
