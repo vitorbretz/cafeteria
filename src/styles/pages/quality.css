@@ -1,6 +1,19 @@
 .quality{
     margin-top: 50px;
+    position: relative;
     
+}
+.quality::before{
+    content: "";
+    background-image: url(../../assets/imgs/detalhes/detail-left.png);
+    height: 250px;
+    width: 250px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: -210px;
+    top: -40px;
+
 }
 .item-quality{
     background-color: var(--cor4);

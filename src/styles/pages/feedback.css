@@ -1,4 +1,18 @@
-
+.feedback{
+    position: relative;
+}
+.feedback::after{
+    content: "";
+    background-image: url(../../assets/imgs/detalhes/detail-right.png);
+    height: 250px;
+    width: 250px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: -205px;
+    bottom: 90px;
+    z-index: -1;
+}
 .opnion p {
     padding: 20px;
     font-family: var(--font5);
