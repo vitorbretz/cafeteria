@@ -3,7 +3,7 @@
     width: 500px;
 }
 .main{
-    margin-top: 130px;
+    padding-top: 130px;
 }
 .detalTitle{
     padding: 30px 0px;
@@ -15,4 +15,25 @@
     text-align: start;
     color: #ccc;
     margin-bottom: 20px;
+}
+@media (max-width:800px){
+    .conteudo_main p{
+        font-size: 1rem;
+        color: var(--cor7);
+        color: var(--cor2);
+        padding: 15px;
+        max-width: 350px;
+    }
+    .main{
+        height: 91.1vh;
+        background-color: #5250506d;
+        backdrop-filter: blur(2px);
+    }
+    
+    .detalTitle{
+        font-size: 3.5rem;
+    }
+    .main a {
+        margin-left: 10px;
+    }
 }
