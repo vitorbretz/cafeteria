@@ -56,3 +56,13 @@
     cursor: pointer;
 
 }
+@media (max-width:800px){
+    .menu_header{
+        display: none;
+    }
+}
+@media (max-width:400px){
+    .title_header{
+        font-size: 2rem;
+    }
+}
