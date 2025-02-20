@@ -4,6 +4,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    overflow: hidden;
 
 }
 .footer{
@@ -64,6 +65,7 @@
     .footer div h2{
         font-size: 1.3rem;
     }
+    
     .conteudo-footer .text-m1{
         font-size: 2.5rem;
     }
