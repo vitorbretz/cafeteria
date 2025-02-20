@@ -20,8 +20,8 @@ btnRight.addEventListener('click',(e)=>{
 btnLeft.addEventListener('click',(e)=>{
     if(indice === 0){
         indice = opnioes.length - 1;
-    } else if(indice === 0){
-        indice --;
+    } else{
+        indice--;
     }
     mostrarOpiniao();
 })

@@ -3,6 +3,25 @@
     text-align: center;
     padding: 15px;
 }
+#mn-bg{
+overflow: hidden;
+}
+.menu{
+    position: relative; 
+}
+.menu::after{
+    content: "";
+    background-image: url(../../assets/imgs/detalhes/detail-right.png);
+    height: 250px;
+    width: 250px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: -210px;
+    top: -5px;
+    z-index: -1;
+    overflow: hidden;
+}
 
 
 .option-menu,
@@ -36,4 +55,18 @@
     object-fit: cover;
     margin-bottom: 20px;
     border-radius: 6px 6px 0px 0px;
+}
+@media (max-width: 800px){
+    .option-menu,
+    .option-quality{
+    grid-template-columns: 1fr 1fr;
+    padding: 0 30px;
+}
+}
+@media (max-width: 600px){
+    .option-menu,
+    .option-quality{
+    grid-template-columns: 1fr;
+   
+}
 }

@@ -22,3 +22,12 @@
 .place_conteudo p {
     padding-bottom: 20px;
 }
+@media (max-width:800px){
+    .place{
+        flex-direction: column;
+    }
+    .place_img{
+      
+        padding: 30px;
+    }
+}

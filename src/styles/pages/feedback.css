@@ -1,5 +1,9 @@
 .feedback{
     position: relative;
+    margin-bottom: 60px;
+}
+#fd-bg{
+    overflow: hidden;
 }
 .feedback::after{
     content: "";
@@ -32,7 +36,7 @@
    
 }
 .opnion{
-    height: 250px;
+
     position: relative;
     text-align: center;
     background-color: var(--cor4);
@@ -44,13 +48,13 @@
 
 .opnion .people {
     padding: 0;
-    margin: 0;
-    left: 45%;
-    bottom: -50px;
+    margin: 0 auto;
+    left: 50%;
     position: absolute;
     height: 80px;
     object-fit: cover;
     width: 80px;
+    transform: translate(-50%, -50%)
 }
 
 .galery-opnion button{
@@ -76,4 +80,30 @@ button img {
     right:  -20px;
     top: 40%; 
 }
-
+@media (max-width:800px){
+    .feedback::after{
+        display: none;
+    }
+    .opnion{
+        width: 90%;
+    }
+    .feedback::after{
+        display: none;
+    }
+    .opnion p{
+        font-size: 1rem;
+    }
+    .btn-left{
+        left: 20px;
+        top: 40%;
+    }
+    .btn-right{
+        right:  20px;
+        top: 40%;
+}
+}
+@media (max-width:400px){
+    .opnion p{
+        font-size: 0.9rem;
+    }
+}
