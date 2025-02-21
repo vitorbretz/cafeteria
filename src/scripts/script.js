@@ -26,4 +26,9 @@ btnLeft.addEventListener('click',(e)=>{
     mostrarOpiniao();
 })
 
+
+document.querySelector('.buttonBurger').addEventListener('click', () => {
+	document.querySelector('.buttonBurger').classList.toggle('close');
+})
+
 mostrarOpiniao();
