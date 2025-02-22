@@ -28,6 +28,8 @@
         height: 91.1vh;
         background-color: #5250506d;
         backdrop-filter: blur(2px);
+        position: relative;
+        z-index: -1;
     }
     
     .detalTitle{
