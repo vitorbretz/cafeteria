@@ -12,20 +12,30 @@
 
 }
 .loguin{
+    position: relative;
     border-radius: var(--borderRadios);
     position: absolute;
-    width: 40%;
     background-color: var(--cor5);
-    height: 70%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+.loguin span {
+    position: absolute;
+    height: 30px;
+    right: 5px;
+    top: 5px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
 .loguin img {
     height: 100%;
+    width: max-content;
     border-radius: 6px ;
+    
 }
 .form-loguin{
     padding: 20px;
@@ -38,23 +48,54 @@
     grid-template-columns: 1fr;
     justify-items: center;
     gap: 20px;
+
 }
 .form-loguin form input{
     border-radius:var(--borderRadios) ;
     border: none;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
+    padding: 10px;
+    width: 100%;
+    background-color: var(--cor6);
+    cursor: pointer;
     
 }
 .form-loguin form label{
+    font-family: var(--font1);
+    font-size: 1.1rem;
     display: block;
-    background-color: aqua;
+    padding-bottom: 10px;
     justify-self: flex-start;
     align-self: flex-start;
+}
+.form-loguin form input[type="submit"]{
+    width: min-content
+}
+.form-loguin form input[type="submit"]:hover{
+    color: #fff;
+}
+.form-loguin form a:hover {
+   text-underline-offset: 5px;
+    text-decoration: underline 1.5px  ;
+    
 }
 .conteudo_main p{
     text-align: start;
     color: #ccc;
     margin-bottom: 20px;
+}
+.opition-loguin{
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+.opition-loguin h3{
+    grid-column: 1/3;
+}
+.opition-loguin img {
+    height: 35px;
+    cursor: pointer;
 }
 @media (max-width:800px){
     .conteudo_main p{
@@ -69,7 +110,7 @@
         background-color: #5250506d;
         backdrop-filter: blur(2px);
         position: relative;
-        z-index: -1;
+       
     }
     
     .detalTitle{
@@ -77,5 +118,18 @@
     }
     .main a {
         margin-left: 10px;
+    }
+    .loguin{
+        grid-template-columns: 1fr;
+
+    }
+    .loguin .img-loguin {
+        display: none;
+    }
+}
+@media (max-width:400px){
+    .loguin{
+        width: 70%;
+
     }
 }
