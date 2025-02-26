@@ -54,4 +54,9 @@ closeLoguin.addEventListener('click',()=>{
 openLoguin.addEventListener('click',()=>{
     menuLoguin.classList.add('showMenu')
 })
+document.querySelector("#sendForm").addEventListener("submit", function(event) {
+    event.preventDefault(); 
+    
+});
 mostrarOpiniao();
+
