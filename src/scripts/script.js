@@ -1,9 +1,12 @@
-let btnRight = document.querySelector('.btn-right')
-let btnLeft = document.querySelector('.btn-left')
-let opnioes  = document.querySelectorAll('.opnion')
+let btnRight = document.querySelector('.btn-right');
+let btnLeft = document.querySelector('.btn-left');
+let opnioes  = document.querySelectorAll('.opnion');
 let indice = 0;
-const menuMoba = document.querySelector('.menu-mobile')
-const closeMenu = document.querySelector('.menu-mobile .close')
+const menuMoba = document.querySelector('.menu-mobile');
+const closeMenu = document.querySelector('.menu-mobile .close');
+const closeLoguin =  document.querySelector('#close-loguin')
+let menuLoguin =  document.querySelector('.loguin')
+const openLoguin = document.querySelector('.openLoguin')
 
 
 
@@ -44,4 +47,11 @@ closeMenu.addEventListener('click',()=>{
 })
 
 
+closeLoguin.addEventListener('click',()=>{
+   menuLoguin.classList.remove('showMenu');
+})
+
+openLoguin.addEventListener('click',()=>{
+    menuLoguin.classList.add('showMenu')
+})
 mostrarOpiniao();

@@ -1,9 +1,12 @@
 .conteudo_main{
     color: var(--cor2);
     width: 500px;
+  
 }
 .main{
     padding-top: 130px;
+
+    
 }
 .detalTitle{
     padding: 30px 0px;
@@ -11,7 +14,14 @@
     color: var(--cor2);
 
 }
+.showMenu{
+    display: grid !important;
+    transition: 2s;
+
+  }
 .loguin{
+    z-index: 1000;
+    display: none;
     position: relative;
     border-radius: var(--borderRadios);
     position: absolute;
@@ -19,8 +29,8 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    display: grid;
     grid-template-columns: 1fr 1fr;
+    
 }
 .loguin span {
     position: absolute;
@@ -110,7 +120,7 @@
         background-color: #5250506d;
         backdrop-filter: blur(2px);
         position: relative;
-       
+        z-index: -1;
     }
     
     .detalTitle{
